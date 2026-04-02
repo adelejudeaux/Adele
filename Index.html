@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Adèle Judeaux</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+        .project-img-box img { 
+            transition: all 0.4s ease; 
+        }
+        .project-img-box img:hover { 
+            transform: scale(1.05); 
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+        .interactive-box { 
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease; 
+            border: 1px solid #f0f0f0;
+        }
+        .interactive-box:hover { 
+            transform: translateY(-5px); 
+            box-shadow: 0 12px 24px rgba(0,0,0,0.05);
+            border-color: #ce3262;
+        }
+    </style>
+</head>
+<body >
+    <main>
+        <div class="container mt-4">
+
+            <nav class="navbar is-spaced is-transparent" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="#">
+                        <strong class="is-size-4 has-text-danger-dark">AJ</strong>
+                    </a>
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-main">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbar-main" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item is-tab" href="#formations">Formations</a>
+                        <a class="navbar-item is-tab" href="#competences">Compétences</a>
+                        <a class="navbar-item is-tab" href="#projets">Projets</a>
+                    </div>
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <div class="buttons">
+                                <a class="button is-danger-dark is-rounded has-text-weight-bold" href="CV Judeaux Adèle.pdf.pdf" target="_blank">
+                                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                                    <span>Mon CV</span>
+                                </a>
+                                <a class="button is-danger-dark is-rounded has-text-weight-bold" href="#contacts">
+                                    <span class="icon"><i class="fas fa-paper-plane"></i></span>
+                                    <span>Me contacter</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <header class="has-text-centered mb-6 mt-6">
+                <h1 class="title is-size-1 has-text-black mb-2">Portfolio</h1>
+                <p class="subtitle is-size-3 has-text-danger-dark has-text-weight-light">Adèle Judeaux</p>
+                <div style="width: 50px; height: 3px; background: #ce3262; margin: 20px auto;"></div>
+            </header>
+
+            <section class="box mb-6 interactive-box p-6" id="contacts">
+                <div class="columns is-variable is-8 is-vcentered">
+                    <div class="column is-5 has-text-centered">
+                        <figure class="image is-inline-block mb-4">
+                            <img src="img projet/img CV.jpg" alt="Photo de profil" class="is-rounded shadow" style="max-width: 200px; border: 4px solid #f5f5f5;">
+                        </figure>
+                        <h4 class="title is-4">Contact</h4>
+                        
+                        <div class="field is-grouped is-grouped-centered is-grouped-multiline">
+                            <div class="control">
+                                <div class="tags has-addons">
+                                    <span class="tag is-dark"><i class="fas fa-phone"></i></span>
+                                    <span class="tag is-white has-text-weight-semibold">06 11 84 44 12</span>
+                                </div>
+                            </div>
+                            <div class="control">
+                                <div class="tags has-addons">
+                                    <span class="tag is-dark"><i class="fas fa-envelope"></i></span>
+                                    <span class="tag is-white has-text-weight-semibold">adle.jdx@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="control">
+                                <a href="https://www.linkedin.com/in/adèle-judeaux-452aa72b3" target="_blank" class="tags has-addons">
+                                    <span class="tag is-danger-dark"><i class="fab fa-linkedin"></i></span>
+                                    <span class="tag is-white has-text-weight-semibold">LinkedIn Profile</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-7">
+                        <div class="notification is-danger-dark is-light" style="border-left: 5px solid #ce3262;">
+                            <h5 class="title is-5 mb-3"><i class="fas fa-user-tag mr-2"></i> Présentation</h5>
+                            <div class="content">
+                                <p>Adèle Judeaux 19 ans.</p>
+                                <p>Très jeune, j'ai découvert l'univers de l'audiovisuel en observant des tournages de près. Ce qui m'a toujours attirée, ce n'est pas l'image finale, mais tout ce qui se construit autour : le cadre, la lumière, le son.</p>
+                                <p>Le voyage fait partie de mon parcours depuis l'enfance. Petite, j'ai vécu deux ans à Pékin, en Chine, une expérience qui m'a ouvert très tôt à d'autres cultures. J'ai ensuite eu l'occasion de voyager à plusieurs reprises, notamment lors de six mois passés en Italie, entre découvertes culturelles et apprentissage d'une nouvelle langue. J'aime les expériences qui font évoluer.</p>
+                                <p>Aujourd'hui, je suis en MMI – métiers du multimédia et de l'internet, une formation qui mêle communication, création graphique, audiovisuel et développement web. Sa polyvalence me permet de comprendre un projet dans son ensemble et d'explorer différents rôles.</p>
+                                <p>Je reste ouverte quant à mon avenir professionnel : apprendre, expérimenter et m'adapter sont au cœur de ma démarche.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mb-6" id="formations">
+                <h2 class="title is-2 mb-5">Formations</h2>
+                <div class="columns">
+                    <div class="column is-7">
+                        <div class="box interactive-box">
+                            <article class="media">
+                                <div class="media-content">
+                                    <div class="content">
+                                        <span class="tag is-danger-dark is-rounded is-light has-text-weight-bold">2025-2026</span>
+                                        <h4 class="title is-4 mt-2">IUT de Lannion (22)</h4>
+                                        <p class="subtitle is-6 has-text-grey">Université de Rennes</p>
+                                        <p><strong>1ère année Bachelor MMI</strong></p>
+                                        <p class="is-size-7 has-text-grey-dark">Design graphique • Audiovisuel • Développement Web • Marketing Digital</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="column is-5">
+                        <div class="box interactive-box">
+                            <article class="media">
+                                <div class="media-content">
+                                    <div class="content">
+                                        <span class="tag is-dark is-rounded is-light has-text-weight-bold">2024</span>
+                                        <h4 class="title is-4 mt-2">Lycée René Descartes</h4>
+                                        <p class="subtitle is-6 has-text-grey">Rennes (35)</p>
+                                        <p><strong>Baccalauréat STMG</strong></p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    <!-- COMPETENCES -->
+   <section class="box is-shadowless mb-6 p-5" id="competences" style="background: rgba(255,255,255,0.7); border: 1px solid #eee; border-radius: 15px;">
+    <h2 class="title is-2 has-text-black mb-6">
+        <span class="icon-text">
+            <span>Mes Compétences</span>
+        </span>
+    </h2>
+
+    <div class="columns is-multiline">
+        
+        <div class="column is-6">
+            <article class="message is-dark interactive-card">
+                <div class="message-header">
+                    <p><i class="fas fa-bullhorn mr-2"></i> Communication</p>
+                </div>
+                <div class="message-body has-background-white has-text-black">
+                    <div class="content is-small">
+                        <p>• Créer du contenu & élaborer une stratégie<br>
+                           • Auditer une communication numérique<br>
+                           • Réaliser un plan d'action & charte graphique</p>
+                    </div>
+                    <hr class="my-3 opacity-20">
+                    <div class="columns is-mobile is-centered">
+                        <div class="column is-narrow has-text-centered software-item">
+                            <img src="img/canva_logo_icon_168460.png" class="image is-24x24 is-inline-block" alt="Icon Canva">
+                            <p class="is-size-7">Canva</p>
+                        </div>
+                        <div class="column is-narrow has-text-centered software-item">
+                            <img src="img/paper_file_document_doc_docs_google_icon_228430.png" class="image is-24x24 is-inline-block" alt="Icon Google Docs">
+                            <p class="is-size-7">Docs</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="column is-6">
+            <article class="message is-dark interactive-card">
+                <div class="message-header">
+                    <p><i class="fas fa-palette mr-2"></i> Création Graphique</p>
+                </div>
+                <div class="message-body has-background-white has-text-black">
+                    <div class="content is-small">
+                        <p>• Élaborer des affiches & identités visuelles<br>
+                           • Créer un univers graphique complet<br>
+                           • Réaliser des planches de veille créative</p>
+                    </div>
+                    <hr class="my-3 opacity-20">
+                    <div class="columns is-mobile is-centered">
+                        <div class="column is-narrow has-text-centered software-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" class="image is-24x24 is-inline-block" alt="Icon Photoshop">
+                            <p class="is-size-7">Photoshop</p>
+                        </div>
+                        <div class="column is-narrow has-text-centered software-item">
+                            <img src="img/adobe-illustrator.png" class="image is-24x24 is-inline-block" alt="Icon Illustrator">
+                            <p class="is-size-7">Illustrator</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="column is-6">
+            <article class="message is-dark interactive-card">
+                <div class="message-header">
+                    <p><i class="fas fa-video mr-2"></i> Audiovisuel</p>
+                </div>
+                <div class="message-body has-background-white has-text-black">
+                    <div class="content is-small">
+                        <p>• Captation vidéo et prise de son<br>
+                           • Montage vidéo dynamique (Shorts, Reels)<br>
+                           • Gestion de la lumière et du cadre</p>
+                    </div>
+                    <hr class="my-3 opacity-20">
+                    <div class="columns is-mobile is-centered">
+                        <div class="column is-narrow has-text-centered software-item">
+                            <img src="img/download.png" class="image is-24x24 is-inline-block" alt=" Icon CapCut">
+                            <p class="is-size-7">CapCut</p>
+                        </div>
+                        <div class="column is-narrow has-text-centered software-item">
+                            <img src="img/davinci_resolve_alt_macos_bigsur_icon_190260.png" class="image is-24x24 is-inline-block" alt="Icon Da vinci resolve">
+                            <p class="is-size-7">DaVinci Resolve</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="column is-6">
+            <article class="message is-dark interactive-card">
+                <div class="message-header">
+                    <p><i class="fas fa-code mr-2"></i> Développement Web</p>
+                </div>
+                <div class="message-body has-background-white has-text-black">
+                    <div class="content is-small">
+                        <p>• Intégration d'interfaces (HTML/CSS)<br>
+                           • Utilisation de frameworks (Bulma)<br>
+                           • Bases du développement JavaScript</p>
+                    </div>
+                    <hr class="my-3 opacity-20">
+                    <div class="columns is-mobile is-centered">
+                        <div class="column is-narrow has-text-centered software-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" class="image is-24x24 is-inline-block" alt="HTML">
+                            <p class="is-size-7">HTML5</p>
+                        </div>
+                        <div class="column is-narrow has-text-centered software-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" class="image is-24x24 is-inline-block" alt="CSS">
+                            <p class="is-size-7">CSS3</p>
+                        </div>
+                         <div class="column is-narrow has-text-centered software-item">
+                            <img src="img/figma_macos_bigsur_icon_190183.png" class="image is-24x24 is-inline-block" alt="Icon Figma">
+                            <p class="is-size-7">Figma</p>
+                        </div>
+                          <div class="column is-narrow has-text-centered software-item">
+                            <img src="img/microsoft_visual_studio_code_macos_bigsur_icon_189957.png" class="image is-24x24 is-inline-block" alt="Icon Visual Studio code">
+                            <p class="is-size-7">VisualStudio</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="column is-12">
+            <article class="message is-dark interactive-card">
+                <div class="message-header">
+                    <p><i class="fas fa-tasks mr-2"></i> Gestion de Projet</p>
+                </div>
+                <div class="message-body has-background-white has-text-black">
+                    <div class="columns is-vcentered">
+                        <div class="column is-8">
+                            <div class="content is-small">
+                                <p>• Cadrer les besoins, définir les objectifs et planifier les tâches (Gantt, Méthode Agile).<br>
+                                   • Coordonner une équipe pluridisciplinaire et assurer le suivi de production.</p>
+                            </div>
+                        </div>
+                        <div class="column is-4 has-text-centered border-left-pink">
+                             <div class="columns is-mobile is-centered">
+                                <div class="column is-narrow software-item">
+                                    <img src="img/paper_file_document_doc_docs_google_icon_228430.png" class="image is-32x32 is-inline-block" alt="Icon Google Docs">
+                                    <p class="is-size-7">Notion</p>
+                                </div>
+                                <div class="column is-narrow software-item">
+                                    <img src="img/canva_logo_icon_168460.png" class="image is-32x32 is-inline-block" alt="Icon Canva">
+                                    <p class="is-size-7">Canva</p>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+    </div>
+</section>
+
+<style>
+    .interactive-card {
+        transition: all 0.3s ease;
+        height: 100%;
+        border: 1px solid transparent;
+    }
+    .interactive-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        border-color: #ce3262;
+    }
+    .interactive-card:hover .message-header {
+        background-color: #ce3262 !important;
+    }
+    .software-item {
+        transition: transform 0.2s ease;
+        padding: 5px;
+    }
+    .software-item:hover {
+        transform: scale(1.15);
+    }
+    .opacity-20 {
+        opacity: 0.2;
+        background-color: #ce3262;
+    }
+    .border-left-pink {
+        border-left: 2px solid rgba(206, 50, 98, 0.2);
+    }
+    @media screen and (max-width: 768px) {
+        .border-left-pink { border-left: none; border-top: 2px solid rgba(206, 50, 98, 0.2); margin-top: 10px; }
+    }
+</style>
+    <!-- PROJETS 1 -->
+<section class="box mb-5 has-text-blackhas- has-background-grey-lighter id="projets" 
+         style="transition: transform 0.3s ease; cursor: default;" 
+         onmouseover="this.style.transform='scale(1.01)'" 
+         onmouseout="this.style.transform='scale(1)'">
+    
+        <h2 class="title is-2 mb-6 has-text-black">Projets</h2>
+        <h3 class="subtitle is-3 mb-6 has-text-black">Gérer un projet de communication numérique : valorisation d'un monument dans une ville de moins de 2000 habitants</h3>
+
+        <div class="columns is-variable is-8">
+            <div class="column is-4">
+                <p class="mb-3" style="transition: 0.2s;" onmouseover="this.style.paddingLeft='10px'" onmouseout="this.style.paddingLeft='0px'">
+                    <strong>Domaine :</strong> <span class="has-text-black">Gestion de projet</span>
+                </p>
+                <p class="mb-3" style="transition: 0.2s;" onmouseover="this.style.paddingLeft='10px'" onmouseout="this.style.paddingLeft='0px'">
+                    <strong>Nom du projet :</strong> <span class="has-text-black">Communication Numérique</span>
+                </p>
+                <p class="mb-3" style="transition: 0.2s;" onmouseover="this.style.paddingLeft='10px'" onmouseout="this.style.paddingLeft='0px'">
+                    <strong>Compétence :</strong> <span class="has-text-black">Entreprendre</span>
+                </p>
+            </div>
+            
+            <div class="column is-8">
+                <article class="message is-dark" 
+                         style="transition: all 0.3s ease; shadow: none;" 
+                         onmouseover="this.style.transform='scale(1.03)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.2)'" 
+                         onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'">
+                    
+                    <div class="message-header">
+                        <p>Contexte et objectif</p>
+                    </div>
+                    <div class="message-body has-background-white has-text-black">
+                        Le projet consiste à mettre en valeur un monument d'une commune de moins de 2000 habitants et à proposer une communication internationale. En équipe, nous avons convaincu le maire de la ville de s'investir dans ce projet.
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="columns is-variable is-8 mt-6">
+            <div class="column">
+                <h4 class="title is-4 mb-4 has-text-black">Travail réalisé</h4>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Réalisation d'une vidéo (anglais)</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Établissement du cahier des charges</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Planification (Diagramme de Gantt)</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Création d'une affiche</span>
+                </div>
+            </div>
+            <div class="column">
+                <h4 class="title is-4 mb-4 has-text-black">Compétences mobilisées</h4>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-info"><i class="fas fa-users"></i></span>
+                    <span class="is-size-6">Cohésion d'équipe</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-info"><i class="fas fa-sync-alt"></i></span>
+                    <span class="is-size-6">Adaptation</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-info"><i class="fas fa-chart-line"></i></span>
+                    <span class="is-size-6">Analyse de marché</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-info"><i class="fas fa-hourglass-half"></i></span>
+                    <span class="is-size-6">Gestion du temps</span>
+                </div>
+            </div>
+                <div class="column">
+                    <h4 class="title is-4 mb-4 has-text-black">Outils</h4>
+                    <div class="is-flex is-align-items-center mb-2">
+                    <figure class="image is-32x32 mr-2" style="min-width:32px"><img src="data:image/png;base64,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" alt="Canva"></figure>
+                    <span class="is-size-6">Canva</span>
+                </div>
+                    <div class="is-flex is-align-items-center mb-2">
+                    <figure class="image is-32x32 mr-2" style="min-width:32px"><img src="data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAwADADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAcGCAX/xAAtEAABAwQBAgQEBwAAAAAAAAABAgMEAAUGESEHYRIxQZEIFCLRExUyQlKBgv/EABkBAAIDAQAAAAAAAAAAAAAAAAUGAAMEAv/EACgRAAEDAgYBAwUAAAAAAAAAAAECAwQAEQUGEiExQXEUIpGBobHB8P/aAAwDAQACEQMRAD8A4ypSlSpSlVKxdKFO43Fu92kvsqkjxBlsAFtJ/T4ifUj2r053Q+Y/g9yyayyX3vkR4hHcSCp9I5WUka5SOe/NYHcTjNH3qtvb6mqI8lEl0tNbkX+3NRqlKVvq+lbjo1iZyfKkKkNlVvhaekEjhR39KP7I9gaw9XvoperdbMJaajRCt9bq1SVhQBK98en8dVDGkyUluMnUryB+bUOxWSY8cqHJ2qj5dcYFnxqbPuGhGZaO0jgqP7UjuTqqd0yudmveBWmfZAPkXo40hWiUq8lpV3Ct7rn3qPZrlnMCHHYnIt0NtRcW0pBWXFeQJII4A3x3r3uhpufTWHPt8uWm6W6QoOtsoSUFpzyJBO+CNbHYUt5gyNiruHF0NnUje1xx33yOa5ydiUJiQGlLGtw6R5vsL8bn9VI/iQwE4RnjrkNkptFzKpEQgcIO/rb/AMk8diKl9dU/Ell1lyDpq/Gl2xTUpt9tcN0uAlLm+dceRT4t1ytWrAH5D0JPqU2Wnbzbv+7ppxmAqDJLaha+9vNK0WD5IrHp6lPNLfhu6/FbSdHj1Hes7SmBh9yO4HGzYigjzKH0FtYuDVtHWCxAAC2XAAcDhH3oesFiI1+W3D2R96iVKMnMs87Ej4FBhluCDcA/JrUdQstcyie2W2lR4bAIaaUrZJPmo96y9KUvpSlIskWFMj8h2QsuOqKlHs1//9k=" alt="Google Drive"></figure>
+                    <span class="is-size-6">Google Drive</span>
+                </div>
+                    <div class="is-flex is-align-items-center mb-2">
+                    <figure class="image is-32x32 mr-2" style="min-width:32px"><img src="data:image/png;base64,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" alt="CapCut"></figure>
+                    <span class="is-size-6">CapCut</span>
+                </div>
+                </div>
+            </div>
+
+            <div class="columns is-variable is-8 mt-6">
+    <div class="column is-5">
+        <article class="message is-dark"       style="transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); cursor: pointer;" 
+                         onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.15)';" 
+                         onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+            <div class="message-header">
+                <p>Bilan personnel</p>
+            </div>
+            <div class="message-body has-background-white has-text-black">
+                Ce projet m'a plongé dans des conditions réelles, avec une certaine pression, car seuls quatre groupes ont été choisis pour présenter le projet devant le maire de la ville, et nous en faisions partie. J'ai découvert ce que représente la réalisation d'un projet concret.
+            </div>
+        </article>
+    </div>
+<div class="column is-7">
+        <div class="columns is-mobile">
+            <div class="column is-4">
+                <figure class="image is-9by15">
+                    <img src="img projet/bulat 1.png" alt="Page de garde du projet">
+                </figure>
+            </div>
+            <div class="column is-4">
+                <figure class="image is-9by15">
+                    <img src="img projet/bulat2.png" alt="Introduction du projet">
+                </figure>
+            </div>
+            <div class="column is-4">
+                <figure class="image is-9by15">
+                    <img src="img projet/bulat 3.png" alt="Planification Gantt du projet">
+                </figure>
+            </div>
+            <div class="column"></div>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <!-- PROJET 2 -->
+<section class="box mb-5 has-text-black has-background-grey-lighter" id="projets" 
+         style="transition: all 0.4s ease;" 
+         onmouseover="this.style.boxShadow='0 8px 16px rgba(0,0,0,0.1)'" 
+         onmouseout="this.style.boxShadow='none'">
+    
+    <div class="container m-3">
+        <h3 class="subtitle is-3 mb-6 has-text-black">Concevoir une recommandation de communication numérique pour le festival à l’West Fest</h3>
+
+        <div class="columns is-variable is-8">
+            <div class="column is-4">
+                <div style="transition: transform 0.3s ease;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
+                    <p class="mb-3"><strong>Domaine :</strong> <span class="has-text-black">expression, communication et rhétorique </span></p>
+                </div>
+                <div style="transition: transform 0.3s ease; transition-delay: 0.05s;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
+                    <p class="mb-3"><strong>Nom du projet :</strong> <span class="has-text-black">concevoir une recommandation de communication numérique pour le festival à l’West Fest</span></p>
+                </div>
+                <div style="transition: transform 0.3s ease; transition-delay: 0.1s;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
+                    <p class="mb-3"><strong>Compétence :</strong> <span class="has-text-black">concevoir</span></p>
+                </div>
+            </div>
+            
+            <div class="column is-8">
+                <article class="message is-dark" 
+                         style="transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); cursor: pointer;" 
+                         onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.15)';" 
+                         onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+                    
+                    <div class="message-header">
+                        <p>Contexte et objectif</p>
+                    </div>
+                    <div class="message-body has-background-white has-text-black">
+                      Le projet consiste à établir un plan de communication pour le festival MMI à l’West Fest. L’objectif est de communiquer efficacement les informations de l'événement afin d’attirer le plus de personnes possible.
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+        <div class="columns mb-6">
+            <div class="column">
+                <h4 class="title is-4 mb-4 has-text-black">Travail réalisé</h4>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Auditer le positionnement </span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Analyser la concurrence </span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Élaborer une recommandation marketing</span>
+                </div>
+                 <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6"> Concevoir un plan de communication </span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Créer des contenus</span>
+                </div>
+            </div>
+
+            <div class="column">
+                <h4 class="title is-4 mb-4 has-text-black">Compétences mobilisées</h4>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-info"><i class="fas fa-paint-brush"></i></span>
+                    <span class="is-size-6">Créativité</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-info"><i class="fas fa-palette"></i></span>
+                    <span class="is-size-6">Stratégie</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-info"><i class="fas fa-eye"></i></span>
+                    <span class="is-size-6">Respect des délais des livrables</span>
+                </div>
+            </div>
+
+            <div class="column">
+                <h4 class="title is-4 mb-4 has-text-black">Outils</h4>
+                    <div class="is-flex is-align-items-center mb-2">
+                    <figure class="image is-32x32 mr-2" style="min-width:32px"><img src="img/google_drive_logo_icon_159334.png" alt="Icon Google Drive"></figure>
+                    <span class="is-size-6">Google Drive</span>
+                </div>
+                    <div class="is-flex is-align-items-center mb-2">
+                    <figure class="image is-32x32 mr-2" style="min-width:32px"><img src="img/download.png" alt="Icon Pinterest"></figure>
+                    <span class="is-size-6">CapCut </span>
+                </div>
+                    <div class="is-flex is-align-items-center mb-2">
+                    <figure class="image is-32x32 mr-2" style="min-width:32px"><img src="img/adobe_photoshop_macos_bigsur_icon_190436.png" alt="Icon Photoshop"></figure>
+                    <span class="is-size-6">Photoshop </span>
+                </div>
+                </div>
+            </div>
+
+            <article class="message is-dark mb-6"style="transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); cursor: pointer;" 
+                         onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.15)';" 
+                         onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+                <div class="message-header"><p>Bilan personnel</p></div>
+                <div class=" message-body has-background-white has-text-black"style="transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); cursor: pointer;" 
+                         onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.15)';" 
+                         onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+                    Ce projet a été enrichissant et j'ai approfondi et découvert davantage les outils de Photoshop. J'ai réalisé deux affiches, les deux n'ont pas la même charte graphique, elles sont totalement différentes, j'ai mis en avant deux univers graphiques.
+                </div>
+            </article>
+
+<div class="column is-7">
+        <div class="columns is-mobile">
+            <div class="column is-4">
+                <figure class="image is-15by9">
+                    <img src="img projet/west fest 1.png" alt="Chartre graphique du projet">
+                </figure>
+            </div>
+            <div class="column is-4">
+                <figure class="image is-9by15">
+                    <img src="img projet/west fest 2.png" alt="affiche réalisée">
+                </figure>
+            </div>
+        </section>
+             <!-- PROJET 3 -->
+<section class="box mb-5 has-text-black has-background-grey-lighter " id="projet-duralex"
+         style="transition: all 0.4s ease;" 
+         onmouseover="this.style.boxShadow='0 10px 20px rgba(0,0,0,0.1)'" 
+         onmouseout="this.style.boxShadow='none'">
+         
+    <div class="container m-3">
+        <h3 class="subtitle is-3 mb-6 has-text-black">Auditer une communication numérique pour le site web de Duralex</h3>
+
+        <div class="columns mb-6">
+            <div class="column is-4">
+                <div style="transition: transform 0.3s ease;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
+                    <p class="mb-2"><strong>Domaine :</strong> <span class="has-text-black ml-2">Ergonomie et marketing</span></p>
+                </div>
+                <div style="transition: transform 0.3s ease; transition-delay: 0.05s;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
+                    <p class="mb-2"><strong>Nom du projet :</strong> <span class="has-text-black ml-2">Audit numérique Duralex</span></p>
+                </div>
+                <div style="transition: transform 0.3s ease; transition-delay: 0.1s;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
+                    <p><strong>Compétence :</strong> <span class="has-text-black ml-2">Comprendre</span></p>
+                </div>
+            </div>
+
+            <div class="column is-8">
+                <article class="message is-dark" 
+                         style="transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); cursor: pointer;" 
+                         onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.15)';" 
+                         onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+                    
+                    <div class="message-header">
+                        <p>Contexte et objectif</p>
+                    </div>
+                    <div class="message-body has-background-white has-text-black">
+                        Le projet consiste à auditer, en groupe, une communication numérique et à évaluer l'ergonomie du site Duralex. J'ai découvert les méthodes et outils pour mener ces audits de manière professionnelle et appris à rédiger des rapports d'audits.
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+        <div class="columns mb-6">
+            <div class="column">
+                <h4 class="title is-4 mb-4 has-text-black">Travail réalisé</h4>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Audit du contexte</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Analyse du trafic et comportements</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Évaluation de l'ergonomie</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Audit sémiotique</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Architecture de l'information</span>
+                </div>
+            </div>
+            <div class="column">
+                <h4 class="title is-4 mb-4 has-text-black">Compétences mobilisées</h4>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-info"><i class="fas fa-users"></i></span>
+                    <span class="is-size-6">Cohésion d'équipe</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-info"><i class="fas fa-brain"></i></span>
+                    <span class="is-size-6">Esprit d'analyse</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-info"><i class="fas fa-search"></i></span>
+                    <span class="is-size-6">Contrôle des sources</span>
+                </div>
+            </div>
+            <div class="column">
+                <h4 class="title is-4 mb-4 has-text-black">Outils</h4>
+                 <div class="is-flex is-align-items-center mb-2">
+                    <figure class="image is-32x32 mr-2" style="min-width:32px"><img src="data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAwADADASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAABgcABAUDAgj/xAA2EAABAwMBAwoEBQUAAAAAAAABAgMEAAURBhIhYQcTFRYxQVFVodEiUlORFBcyQ1ZicXKBkv/EABkBAAIDAQAAAAAAAAAAAAAAAAAEAgMGBf/EACsRAAECBAMGBwEAAAAAAAAAAAEAAgMEERIFIWETQVFxkdEVIiMxUlOBof/aAAwDAQACEQMRAD8A+Mqa/Itpex3myzJt0golupkc2nbJwkBIO4A8apsclqSykvXcpcx8QSzkA8N9HOgbWNKWx6C28ZQde53aUnZxuAx3+FUPitIyKyuL4vBiyxZLvN1R7VH9Wj1C0h5FG+6verdo5PtGOzQhzT8VSdk7iVe9dhdFZ3sj/qrlgvsVdyAS25uCgeztqq88VkHTU5Q+o7qe6sflpoT+NQ/ur3rnJ5L9CPx3Ger0drbSRttqUFJ4g57aIOmI/wBNz0qdMR/puelFx4pYTs4M9o7qe6Ao7nMyG3ubQ5sLCthYylWDnBHhTxZ0fpC8SrbyiMx40TSjcFT9zhJ7G5DeBzQH9RI3d+ONI6KyZElphK0ILiwgKWrZSnJxkk9g409YeqNJWOdB5MxIiS9MvwVMXKchQKVynMHnQrwSQBnuzwoZTeu/hgh+ba0plSvy3fnHRJO/TWLheZc2NCZgsOulTUdlOEtJ7kj/AFWXpcjpVzeP1rrW1Fb27VfJlvZmMTWmHSluQwsKQ4nuUCOGKCbaT0m/v/dXUKJMQjEES45hMvI8RUyPEUGZPiamT4mi5IbHVAjHKkkMpD1oKnMfEUvYBP2rdsWshdYin27YtASvZxzoPcOHGkvRjoa72+Fb3o8uQllZc2htA4IwPamXwmgZBb2dwaVZDLobM+ZTHN/cxugKz/mPas2E6626t9SQFrUVY/vWX1hsvmDXr7VOsNl8wa9faqrdFy2yRYCGwznzRD0g78iKnSDvyIoe6w2XzBr19q8uaksqG1K/HIVgZwkEk0WaKPh5+s9Cv//Z" alt="Excel"></figure>
+                    <span class="is-size-6">Excel</span>
+                </div>
+                    <div class="is-flex is-align-items-center mb-2">
+                    <figure class="image is-32x32 mr-2" style="min-width:32px"><img src="data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAwADADASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAABwAGCAQB/8QANRAAAgECBAQCBwcFAAAAAAAAAQIDBAUABgcREhMxkSHBIjJRYXGh0RYjQVZXkpQVF1SB0v/EABYBAQEBAAAAAAAAAAAAAAAAAAYFB//EACcRAAEDAgUEAgMAAAAAAAAAAAECBBEAAwUGMUFREhMhcSKRFIPS/9oADAMBAAIRAxEAPwDHFHTVFZVR0tLE800rBURRuWOFbLekKtCs1+rnV2G5gp9vR9xY+Qx5oFZImWsv0yBnVuRASPV8N2I7gd8NFstVzujOttt9VWGMAuIImfh36b7Dww/y9l5stuHbsTOgPgAcn3Wf5izE5Q5LRoYjUjUngeqoFPplk+Jdmt8sp9rzvv8AIjEqNMsnyrstvliPtSd9/mThN+yWafy7dv4j/TE+yWafy7dv4j/TCf8ABwmI6EfSaLfnYtM9a/tVBWZNIVWFprDXOzqNxBUbel7gw8xgprKaoo6qSlqonhniYq6MNipxr252q52tkW5W+qozICUE8TJxbddtx44GNfrJEq0d+hQK7NyJyB63hupPYjtgxmHLzZDYu2giNQPII5HqlOXcxOVuQ0dmZ0J1B4PurRoxCsWn9Ew6yPI5+PGR5YdtG1zAxuQsmardYh93zRV8J5vXYgMPw8e+AnRiZZdP6JR1jeRD8eMnzwwadvlpXrBmDLlyvRIXkikLfd9d9wCOvh2xftpCsGtgCfinYHjZUD7o/cUU41cJMfJW5HO6QT9UtcrP36o5e/ZH9MTlZ+/VHL37I/piq8zTb9N8ydn/AO8cdRd9JKeUxVGR7zDIvVHlKkf6MmIKWileBaJ/Va/qrynaUiTdA/bd/muHWRcwKbaL3mq3X0fecoUnCOV03JCj8fDtgJ1nhWXT+tY9Y3jcfHjA88LOeq/J1aaX7KWartvBxc/ny8QfptsOI9PHBNrPMsWn9ap6yPGg+PGD5YvXbfbwa4lQj4q8QE87CQKgWrncxm2pJn5J8yVcbmCaq+gV7iVauwzOFdm58G59bw2YDsD3w+ZNznfspGp/otRFGKnh5gkiDg8O+3X4nGLaOpqKOqjqqWZ4Z4mDI6nYqcK2W9XlWFIb9QOzqNjPT7el7yp8jg7gWOtC1DJ9EDSRII1g+qSY9gLwOy9YzJ1gwQdJHutP/wB5s8/5dH/FXFPzRf7nmW7vdLtMstSyhN1QKAB0AAwcU+puT5V3a4SxH2PA+/yBxKjU3J8S7rcJZT7Egff5gYSt7+Ctj3LKraTyCAaMuLGNOR27ybihwQSKueCTX69xMtHYYXDOrc+cA+r4bKD3J7YmZNXlaF4bDQursNhPUbej7wo8zgprKmorKqSqqpnmnlYs7sdyxwezHmOxdsFs2PV1anaOBzNIct5bcWXAcuh09Og3nk8V/9k=" alt="Google Docs"></figure>
+                    <span class="is-size-6">Google Docs</span>
+                </div>
+                </div>
+            </div>
+
+            <article class="message is-dark mb-6">
+                <div class="message-header"><p>Bilan personnel</p></div>
+                <div class="message-body has-background-white has-text-black">
+                    J'ai compris l'ergonomie d'un site dans son ensemble ainsi que d'auditer, d'analyser l'environnement d'une organisation et enfin d'évaluer l'ergonomie du site web de Duralex.
+                </div>
+            </article>
+<div class="column is-7">
+        <div class="columns is-mobile">
+            <div class="columns">
+                 <div class="column is-4">
+                <figure class="image is-9by15">
+                    <img src="img projet/duralex 1.png" alt="Logo duralex">
+                </figure>
+            </div>
+                <div class="column is-4">
+                <figure class="image is-9by15">
+                    <img src="img projet/duralex 2.png" alt="Logo duralex">
+                </figure>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJET 4-->
+  <section class="box mb-5 has-text-black has-background-grey-lighter" id="projet-podcast" 
+         style="transition: all 0.4s ease;" 
+         onmouseover="this.style.boxShadow='0 10px 20px rgba(0,0,0,0.1)'" 
+         onmouseout="this.style.boxShadow='none'">
+         
+    <div class="container m-3">
+        <h3 class="subtitle is-3 mb-6 has-text-black">Réalisation d’un podcast de 4min30 sur le cinéma et les nouvelles technologies</h3>
+
+        <div class="columns mb-6">
+            <div class="column is-4">
+                <div style="transition: transform 0.3s ease;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
+                    <p class="mb-2"><strong>Domaine :</strong> <span class="has-text-black ml-2">culture numérique</span></p>
+                </div>
+                <div style="transition: transform 0.3s ease; transition-delay: 0.05s;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
+                    <p class="mb-2"><strong>Nom du projet :</strong> <span class="has-text-black ml-2">podcast</span></p>
+                </div>
+                <div style="transition: transform 0.3s ease; transition-delay: 0.1s;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
+                    <p><strong>Compétence :</strong> <span class="has-text-black ml-2">exprimer</span></p>
+                </div>
+            </div>
+            
+            <div class="column is-8">
+                <article class="message is-dark" 
+                         style="transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); cursor: pointer;" 
+                         onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.15)';" 
+                         onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+                    
+                    <div class="message-header">
+                        <p>Contexte et objectif</p>
+                    </div>
+                    <div class="message-body has-background-white has-text-black">
+                        Le projet consiste à réaliser un podcast de 4min30, en équipe, qui portait sur les enjeux artistiques liés aux usages des médias numériques. J'ai proposé une conception d’écriture pertinente avec du contenu documenté et une expression orale intéressante.
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+        <div class="columns mb-6">
+            <div class="column">
+                <h4 class="title is-4 mb-4 has-text-black">Travail réalisé</h4>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Problématiser le sujet</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6"> Faire des recherches sur le sujet</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Rédaction du script</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Enregistrement en studio </span>
+                </div>
+            </div>
+            <div class="column">
+                <h4 class="title is-4 mb-4 has-text-black">Compétences mobilisées</h4>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-info"><i class="fas fa-users"></i></span>
+                    <span class="is-size-6">Utilisation de micros</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-info"><i class="fas fa-brain"></i></span>
+                    <span class="is-size-6">Rédaction </span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-info"><i class="fas fa-search"></i></span>
+                    <span class="is-size-6">Débat</span>
+                </div>
+            </div>
+            <div class="column">
+                <h4 class="title is-4 mb-4 has-text-black">Outils</h4>
+                    <div class="is-flex is-align-items-center mb-2">
+                    <figure class="image is-32x32 mr-2" style="min-width:32px"><img src="data:image/png;base64,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" alt="Google Docs"></figure>
+                    <span class="is-size-6">Google Docs</span>
+                </div>
+                    <div class="is-flex is-align-items-center mb-2">
+                    <figure class="image is-32x32 mr-2" style="min-width:32px"><img src="data:image/png;base64,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" alt="Studio 29 (Lannion)"></figure>
+                    <span class="is-size-6">Studio 29 (Lannion)</span>
+                </div>
+                </div>
+            </div>
+
+            <div class="columns is-variable is-8">
+                <div class="column is-5">
+                <article class="message is-dark" 
+                         style="transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); cursor: pointer;" 
+                         onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.15)';" 
+                         onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+                        <div class="message-header"><p>Bilan personnel</p></div>
+                        <div class="message-body has-background-white has-text-black">
+                            Expérience enrichissante en conditions réelles. Mon rôle était de débattre et je me suis imprégnée de mon personnage. La difficulté majeure fut de passer d'un script écrit à un script parlé, ce qui a nécessité plusieurs phases d'ajustements pour paraître naturel.
+                        </div>
+                    </article>
+                </div>
+<div class="column is-7">
+    <figure class="image mb-3">
+        <img src="img projet/podcast.png" alt="image du podcast en studio"/>
+    </figure> <a class="button is-dark is-fullwidth" href="https://youtu.be/azkgRIjd2yw?si=2WrH1UFB9v857Jjh" target="_blank">
+        <span class="icon">
+            <i class="fab fa-youtube"></i>
+        </span>
+        <span>Voir le podcast sur YouTube</span>
+    </a>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJET 5 -->
+<section class="box mb-5 has-text-black has-background-grey-lighter" id="projet-film" 
+         style="transition: all 0.4s ease;" 
+         onmouseover="this.style.boxShadow='0 10px 20px rgba(0,0,0,0.1)'" 
+         onmouseout="this.style.boxShadow='none'">
+         
+    <div class="container m-3">
+        <h3 class="subtitle is-3 mb-6 has-text-black">Réalisation d’un film pour sensibiliser les jeunes au cyberharcèlement </h3>
+
+        <div class="columns mb-6">
+            <div class="column is-4">
+                <div style="transition: transform 0.3s ease;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
+                    <p class="mb-2"><strong>Domaine :</strong> <span class="has-text-black ml-2">production audiovisuelle</span></p>
+                </div>
+                <div style="transition: transform 0.3s ease; transition-delay: 0.05s;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
+                    <p class="mb-2"><strong>Nom du projet :</strong> <span class="has-text-black ml-2">réalisation d’un film de sensibilisation</span></p>
+                </div>
+                <div style="transition: transform 0.3s ease; transition-delay: 0.1s;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
+                    <p><strong>Compétence :</strong> <span class="has-text-black ml-2">exprimer</span></p>
+                </div>
+            </div>
+            
+            <div class="column is-8">
+                <article class="message is-dark" 
+                         style="transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); cursor: pointer;" 
+                         onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.15)';" 
+                         onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+                    
+                    <div class="message-header">
+                        <p>Contexte et objectif</p>
+                    </div>
+                    <div class="message-body has-background-white has-text-black">
+                        Le projet consiste à réaliser un film de 1min30 pour sensibiliser les jeunes au cyberharcèlement. Le film est réalisé au sein de l’IUT avec le matériel mis à disposition. En équipe, nous avons réalisé un dossier de production pertinent et un film final qualitatif. 
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+        <div class="columns mb-6">
+            <div class="column">
+                <h4 class="title is-4 mb-4 has-text-black">Travail réalisé</h4>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Écrire le pitch / synopsis / scénario</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Adapter le film en anglais</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6"> Produire le film </span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6"> Monter le film </span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6"> Rédiger la note d’intention</span>
+                </div>
+            </div>
+            <div class="column">
+                <h4 class="title is-4 mb-4 has-text-black">Compétences mobilisées</h4>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-info"><i class="fas fa-users"></i></span>
+                    <span class="is-size-6">Cohésion d'équipe</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-info"><i class="fas fa-brain"></i></span>
+                    <span class="is-size-6">Inventivité</span>
+                </div>
+                <div class="icon-text mb-2 has-text-black">
+                    <span class="icon has-text-info"><i class="fas fa-search"></i></span>
+                    <span class="is-size-6">Être à l’écoute</span>
+                </div>
+            </div>
+            <div class="column">
+                <h4 class="title is-4 mb-4 has-text-black">Outils</h4>
+                    <div class="is-flex is-align-items-center mb-2">
+                    <figure class="image is-32x32 mr-2" style="min-width:32px"><img src="data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAwADADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAcGCAX/xAAtEAABAwQBAgQEBwAAAAAAAAABAgMEAAUGESEHYRIxQZEIFCLRExUyQlKBgv/EABkBAAIDAQAAAAAAAAAAAAAAAAUGAAMEAv/EACgRAAEDAgYBAwUAAAAAAAAAAAECAwQAEQUGEiExQXEUIpGBobHB8P/aAAwDAQACEQMRAD8A4ypSlSpSlVKxdKFO43Fu92kvsqkjxBlsAFtJ/T4ifUj2r053Q+Y/g9yyayyX3vkR4hHcSCp9I5WUka5SOe/NYHcTjNH3qtvb6mqI8lEl0tNbkX+3NRqlKVvq+lbjo1iZyfKkKkNlVvhaekEjhR39KP7I9gaw9XvoperdbMJaajRCt9bq1SVhQBK98en8dVDGkyUluMnUryB+bUOxWSY8cqHJ2qj5dcYFnxqbPuGhGZaO0jgqP7UjuTqqd0yudmveBWmfZAPkXo40hWiUq8lpV3Ct7rn3qPZrlnMCHHYnIt0NtRcW0pBWXFeQJII4A3x3r3uhpufTWHPt8uWm6W6QoOtsoSUFpzyJBO+CNbHYUt5gyNiruHF0NnUje1xx33yOa5ydiUJiQGlLGtw6R5vsL8bn9VI/iQwE4RnjrkNkptFzKpEQgcIO/rb/AMk8diKl9dU/Ell1lyDpq/Gl2xTUpt9tcN0uAlLm+dceRT4t1ytWrAH5D0JPqU2Wnbzbv+7ppxmAqDJLaha+9vNK0WD5IrHp6lPNLfhu6/FbSdHj1Hes7SmBh9yO4HGzYigjzKH0FtYuDVtHWCxAAC2XAAcDhH3oesFiI1+W3D2R96iVKMnMs87Ej4FBhluCDcA/JrUdQstcyie2W2lR4bAIaaUrZJPmo96y9KUvpSlIskWFMj8h2QsuOqKlHs1//9k=" alt="Google Drive"></figure>
+                    <span class="is-size-6">Google Drive</span>
+                </div>
+                    <div class="is-flex is-align-items-center mb-2">
+                    <figure class="image is-32x32 mr-2" style="min-width:32px"><img src="data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAwADADASIAAhEBAxEB/8QAHAAAAQQDAQAAAAAAAAAAAAAABQIGBwgAAwQB/8QAKxAAAgEDAgUDBAMBAAAAAAAAAQIDAAQFBhEHEiExURNBYQhxgZEUQnIy/8QAGAEAAwEBAAAAAAAAAAAAAAAAAwQFBgL/xAApEQABAwIFAwMFAAAAAAAAAAABAgMRAAQFEiExQQYUUQcTIhUWocHR/9oADAMBAAIRAxEAPwCmaqWYKoJJ6ACu+LE3DgFnRPgnek4ZQbosf6r0owsmzd6o2lqhxOZdJ3D60nKmuBcFO3aaP9GsbBTr3mj/AEanDhJoW2zmJOUvE9VWcoiHfYbdydq84uaFtsHixk7RPSQOEdPbr2I/VWvoaPY978SZisn93s992Wb5TG3PioJlxNwgJVkf4B2rgYFWKsCCO4NOVpN270HzKgXIYf2XrUW7tUNpzIrWW761nKqk4tuWV/8ANF7S2ubyUR20MkrnsqKST+BQjFAGdt/FXH+kPH4eDTL5NIYWvpZ2SSQgFlVdtlHgdd/zUPGuoE4Hh3cFGYzAG2/k0O6WltQKuSBUfcBNUS6ZuX05qaGaxtrl+a3muIyixyHoVYnsD06+fvSPqC1U2oLmPT2nke9trZue4mgUuryeygjuB16+ftVl/qE1HhcHwhzNxkYLW4kuYDa2scsatvK42BG/jq2/xUdaD1jhcnwrxRsora3eC3EFxHGgXaRRsSdvPf8ANEwfrB/E7AOBuATG/wC4pfCvT2yxHHBdpV84mOJ2zR5j+71T2eOWBykyMjDuGGxoZlG5pU/zUxcYv4c6tdBUEgkAUgdTv7VDeR2Mq7eKrLuPfYJiK1mO9PrwO97dSs2gIO2h8jikWT8kp+RT40JxC1Bo24ebDXgRZNvUikXmjfbsSPPyKYA6HcVsEr/ep7rLFy0WX0hSTwdRUdxpDghQkU9+I/EfU2ubmF85fepHACIoUXkjTfvsPPyetB9O6mymE50srgrHJ1ZD1U/im/6h8Cs9Q+BRWG7a3ZDDSQEjgDSmLV5y0cS4wopUNiNIo/mc7fZaQPdy823/ACoGwFA7puaQfApJlb26VrrtbicmRA0olzdPXThdeUVKO5Jk1//Z" alt="DaVinci Resolve"></figure>
+                    <span class="is-size-6">DaVinci Resolve</span>
+                </div>
+                </div>
+            </div>
+
+            <div class="columns is-variable is-8">
+                <div class="column is-5">
+                <article class="message is-dark" 
+                         style="transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); cursor: pointer;" 
+                         onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.15)';" 
+                         onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+                        <div class="message-header"><p>Bilan personnel</p></div>
+                        <div class="message-body has-background-white has-text-black">
+                            Une expérience immersive où j'ai pu explorer deux facettes du projet : le jeu d'actrice, pour incarner l'intention du personnage, et le montage technique sur DaVinci Resolve, me permettant de perfectionner mon sens du rythme et du récit audiovisuel.
+                        </div>
+                    </article>
+                </div>
+                <div class="column is-7">
+                    <figure class="image">
+                        <img src="img projet/film.png" alt="photo lors de la réalisation du film"/>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJET 6 -->
+ <section class="box mb-5 has-text-black has-background-grey-lighter" id="projet-pokemon" 
+         style="transition: all 0.4s ease;" 
+         onmouseover="this.style.boxShadow='0 10px 20px rgba(0,0,0,0.1)'" 
+         onmouseout="this.style.boxShadow='none'">
+         
+    <div class="container m-3">
+        <h2 class="subtitle is-2 mb-6 has-text-black">Réalisation d'un site web Pokémon</h2>
+
+        <div class="columns is-variable is-8 mb-6">
+            <div class="column is-3">
+                <div style="transition: transform 0.3s ease;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
+                    <p class="mb-4"><strong>Domaine :</strong> <span class="has-text-black ml-3">développement web</span></p>
+                </div>
+                <div style="transition: transform 0.3s ease; transition-delay: 0.05s;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
+                    <p class="mb-4"><strong>Nom du projet :</strong> <span class="has-text-black ml-3">concevoir un site web</span></p>
+                </div>
+                <div style="transition: transform 0.3s ease; transition-delay: 0.1s;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
+                    <p><strong>Compétence :</strong> <span class="has-text-black ml-3">développer</span></p>
+                </div>
+            </div>
+            
+            <div class="column is-9">
+                <article class="message is-dark" 
+                         style="transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); cursor: pointer;" 
+                         onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.15)';" 
+                         onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+                    
+                    <div class="message-header">
+                        <p>Contexte et objectif</p>
+                    </div>
+                    <div class="message-body has-background-white has-text-black">
+                        Le projet consiste à développer un site web Pokémon en langage HTML et avec un minimum de CSS possible. J'ai réalisé un site ergonomique tout en respectant les contraintes et le temps imposé.
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+        <div class="columns is-variable is-8 mb-6">
+            <div class="column">
+                <h4 class="title is-4 mb-4 has-text-black">Travail réalisé</h4>
+                <div class="icon-text mb-3 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Créer wireframes / mockup</span>
+                </div>
+                <div class="icon-text mb-3 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Coder en HTML</span>
+                </div>
+                <div class="icon-text mb-3 has-text-black">
+                    <span class="icon has-text-success"><i class="fas fa-check"></i></span>
+                    <span class="is-size-6">Héberger le site</span>
+                </div>
+            </div>
+            <div class="column">
+                <h4 class="title is-4 mb-4 has-text-black">Compétences mobilisées / développées</h4>
+                <div class="icon-text mb-3 has-text-black">
+                    <span class="icon has-text-info"><i class="fas fa-lightbulb"></i></span>
+                    <span class="is-size-6">Créativité</span>
+                </div>
+                <div class="icon-text mb-3 has-text-black">
+                    <span class="icon has-text-info"><i class="fas fa-palette"></i></span>
+                    <span class="is-size-6">Respect du style choisi</span>
+                </div>
+                <div class="icon-text mb-3 has-text-black">
+                    <span class="icon has-text-info"><i class="fas fa-tools"></i></span>
+                    <span class="is-size-6">S'adapter aux contraintes</span>
+                </div>
+            </div>
+            <div class="column">
+                <h4 class="title is-4 mb-4 has-text-black">Outils</h4>
+                    <div class="is-flex is-align-items-center mb-2">
+                    <figure class="image is-32x32 mr-2" style="min-width:32px"><img src="data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAwADADASIAAhEBAxEB/8QAHAABAAICAwEAAAAAAAAAAAAABgUIAQQCAwcA/8QAMBAAAQMDAgQDBgcAAAAAAAAAAQIDBAAFEQYSEzFBUQchYWJxcoGhwRQVIzI0UlP/xAAZAQACAwEAAAAAAAAAAAAAAAAEBQECBgP/xAAmEQABBAAGAgEFAAAAAAAAAAABAAIDEQQFEiExQRNxBjJRgZHR/9oADAMBAAIRAxEAPwCmaQVKCUgknkBUi1Z5S0hSlIR6E1wsiQqWVEftTkUv03DRc75Ct7jnDQ+6EKUOYHX51SR+hpcekRh4fM8MHJNBFfySR/q39a5osMhXJ5r61ZaPoXSiEIbTaW3MYBUtaiT9aWv+GehnIK21WJppSk+TjS1JUn1BzSuPNo5LoFaeX4pLDWpw39/xU3lWeSwM721+gNRxBBIIwRTXVUYW6+z7chzipjSFtJX3AOAaJ3MAScjqMmmrTYtZadgY8tHS77F/JX8P3pFb2Jci4xWYLhbkqdTwlg42qzz+VG7KcSFn2fvSG1vzU3SIba2XJnGSGUAZ3Kz5Ci8N4tY8v03v67URSNjIc40AvdrVMvUaElMma1JfQnJXwNoJA7Zpmy1rO6aSRx7vb7ddJDIV+hDKkNEjyGVKOSO9FmLNqBViU7OYhRpAaKlIS+VY8u4TXmtn8d79EsrUF61xpEppsNpkqcI3YGASnHP50+nj+MlwOGaO7q/xaX5/8qzDM42tyebVpNO3HfG59FB7rDmQ7rMiXBZXLZfWh9ROdywTk59TR67jEkfDUzLnvzpT82U5vfkOKccV3UTk1CXRW6QD7NIJtG+nhWw5kLR5Oe/axbFhMgg9Rik2l7sLJqKBdi1xUxXgtSOpHI49cGiAJByDg1sJmPAYO0+8UK9uoEfddJohKwsPBFftWM1f4u6dXpeS1Z3JD8+QypttCmikNlQxlRPbPSq9pa24zWv+Mc/qmsKluHomhsLhW4YEN7SrKslhyxjmw3ubNrdU5gYqPlK3O+4V8p9auw91dVGEpw1tL//Z" alt="Figma"></figure>
+                    <span class="is-size-6">Figma</span>
+                </div>
+                    <div class="is-flex is-align-items-center mb-2">
+                    <figure class="image is-32x32 mr-2" style="min-width:32px"><img src="data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAwADADASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAABQYDBwACBAj/xAA3EAACAQIDBAQMBwEAAAAAAAABAgMABAUGERITIUEHFFFxFiIjMUJUYWJygZKxFTJSY3PB0fH/xAAYAQADAQEAAAAAAAAAAAAAAAADBAUGAv/EACMRAAICAgIBBQEBAAAAAAAAAAECAxEABBJBMQUGYYGxJDT/2gAMAwEAAhEDEQA/APGaKzuEQFmJ0AHOjVvly5kjDSzRRE+idSagy2q/iBdgPEQkd9Mu+HbR4owws4vLKVNDA3gzJ65F9JrPBmT1yL6TRd7gKNdaP5TwJ8XvooLqR7dJlbdkDUjRSQSOzhTUGk07cYxZxSbeEC8pDQxFny3cpGWiuIpGHo8RQWRHjkaORSrKdCDyqzcyYPeYHcBJ3SSNjokinz/LlSPmhV63FKBxdOPtINB2dZoGKsKI6w2ptrsAMpsHvIMEbYnkPuf3TblC6wiS+ktcUi2jKNmMk6Ad3tpMw5tmVvho7l29w60upLi9TalQax6jUf8AaY9OcLKpaq+fGA9RjLxsBd/HnHZsrW+HzPiLz9ZtE8aMEfk+Kpcl4/He9IGH2lsNYvKav2+TbzUJyxnhDfta3sYjt5DohPEceRpny5l6ygz5h+K4aRHEd4Xi5DWNuK/5WriCOqto1x5DkO/Pz1mWmLxl13r5cTxPXj9yDpebZjtj+6ftVUZgba6ufdb71aXTQ2zBa/zH7VU+LNtJB3NUT3J/sf6/Mr+2R/Gn3nLbNsyd4roJBPKuKtxIw51BR6FHNEyWbyeTQ02ZIzvPgFwjXcL3kcKtulDaHUqQAT2caTN4ewVm8PYKYg3H135xGjgJ9SPYThILGM2as14jmO5D3YjiiQkpFGOC/Pzk0u3cm2VX9IqMyNWlD2Nl52LObJ7zvX1o9dQkYoDrP//Z" alt="Visual Studio Code"></figure>
+                    <span class="is-size-6">Visual Studio Code</span>
+                </div>
+                    <div class="is-flex is-align-items-center mb-2">
+                    <figure class="image is-32x32 mr-2" style="min-width:32px"><img src="data:image/png;base64,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" alt="FileZilla"></figure>
+                    <span class="is-size-6">FileZilla</span>
+                </div>
+                </div>
+            </div>
+
+            <div class="columns is-variable is-8">
+                <div class="column is-5">
+                <article class="message is-dark" 
+                         style="transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); cursor: pointer;" 
+                         onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.15)';" 
+                         onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+                        <div class="message-header"><p>Bilan personnel</p></div>
+                        <div class="message-body has-background-white has-text-black">
+                            Ce projet m'a beaucoup plu car j'ai approfondi mes compétences en développement web. J'ai notamment apprécié faire les maquettes et tout le côté design du site, cependant j'aurais aimé avoir plus de temps afin de peaufiner mon site.
+                        </div>
+                    </article>
+                </div> 
+               <div class="column is-7">
+                <div class="columns is-mobile">
+                   <div class="column is-4">
+                <figure class="image is-9by15">
+                    <img src="img projet/site 1.png" alt="Page d'acceuil du site">
+                </figure>
+            </div>
+             <div class="column is-4">
+                <figure class="image is-9by15">
+                    <img src="img projet/site 2.png" alt="Page collection du site">
+                </figure>
+            </div>
+             <div class="column is-4">
+                <figure class="image is-9by15">
+                    <img src="img projet/site 3.png" alt="Page pokemon du site">
+                </figure>
+            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <div class="buttons is-centered mb-5">
+            <a class="button is-black is-outlined is-rounded" href="CV Judeaux Adèle.pdf.pdf"_blank">
+                <span>CV</span>
+                <span class="icon"><i class="fas fa-download"></i></span>
+            </a>
+            <a class="button is-black is-outlined is-rounded" href="#contacts">
+                <span>Contact</span>
+                <span class="icon is-small"><i class="fas fa-paper-plane"></i></span>
+            </a>
+        </div>
+        
+        <div class="columns is-centered">
+            <div class="column is-8 has-text-centered">
+                <div class="box has-background-white">
+                    <p class="is-size-7 has-text-black">
+                        C'est ici que s'arrête la visite, mais pas notre collaboration ! &gt; 
+                        Merci d'avoir pris le temps de découvrir mon univers et mes projets. 
+                        Je suis toujours à la recherche de nouveaux défis et d'opportunités créatives. 
+                        Et si on écrivait la suite ensemble ?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+        $navbarBurgers.forEach(el => {
+            el.addEventListener('click', () => {
+                const target = el.dataset.target;
+                const $target = document.getElementById(target);
+                el.classList.toggle('is-active');
+                $target.classList.toggle('is-active');
+            });
+        });
+    });
+</script>
+</body>
+</html>
